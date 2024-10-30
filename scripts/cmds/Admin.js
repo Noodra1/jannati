@@ -1,6 +1,6 @@
 module.exports = {
  config: {
-	 name: "/admin",
+	 name: "admin",
 	 version: "1.0",
 	 author: "AceGun",
 	 countDown: 5,
@@ -12,7 +12,7 @@ module.exports = {
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "/ admin") {
+ if (event.body && event.body.toLowerCase() === "admin") {
  return message.reply({
  body: " ╔╝❮MOHAMMAD BAYJID❯╚╗
 ━━━━━━━━━━━━━━━━━━━━━━
