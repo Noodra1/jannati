@@ -15,7 +15,7 @@
  if (event.body && event.body.toLowerCase() === "Ashik") {
  return message.reply({
  body: "     「আশিক বস এখন কাজে বিজি আছেন যা বলার আমাকে বলতে পারেন🤗😚」",
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/4blOXp4.mp4")
+ attachment: await global.utils.getStreamFromURL("https://i.imgur.com/vNKgnes.mp4")
  });
  }
  }
